@@ -24,7 +24,7 @@ USE `modelo_conceitual_teste` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `modelo_conceitual_teste`.`Produto` (
   `id_produto` INT NOT NULL AUTO_INCREMENT,
-  `foto_produto` VARCHAR(100) NOT NULL,
+  `foto_produto` VARCHAR(1000) NOT NULL,
   `preco_produto` DECIMAL(10,2) NOT NULL,
   `nome_produto` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`id_produto`))
